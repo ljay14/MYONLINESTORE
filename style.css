@@ -1,3 +1,18 @@
+@media only screen and (max-width: 768px) {
+
+    header,
+    article, body {
+        float: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -254,7 +269,7 @@ button:hover {
 #perfume1,
 #perfume2,
 #perfume3,
-#perfumes4 {
+#perfume4 {
     text-align: center;
     width: 320px;
     background: white;
@@ -272,18 +287,21 @@ button:hover {
     height: auto;
     justify-content: space-between;
 }
+
 #perfume2 img {
     width: 186px;
     height: auto;
     justify-content: space-between;
 }
+
 #perfume3 img {
-    width: 186px;
+    width: 156px;
     height: auto;
     justify-content: space-between;
 }
+
 #perfume4 img {
-    width: 186px;
+    width: 136px;
     height: auto;
     justify-content: space-between;
 }
