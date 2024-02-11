@@ -1,26 +1,42 @@
 @media only screen and (max-width: 768px) {
 
-    header,
-    article, body{
+
+    article,
+    body {
         float: none;
         text-align: center;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: auto;
-        
     }
-    body #home{
+
+
+    body #home {
         display: grid;
     }
 
-    header a{
-        display: ;
+    header h1{
         text-align: center;
-        align-items: center;
+        display: grid;
         justify-content: center;
+        align-items: center;
+    }
+   
+    header ul a{
+        display: inline-flex;
+        margin-left: 0;
     }
 
+    header a{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        justify-self: center;
+        margin-left: 0;
+    }
 }
 
 html {
@@ -35,9 +51,10 @@ body {
 header h1 {
     padding-left: 100px;
     display: inline-flex;
-    text-align: center;
-    align-items: center;
+    text-align: right;
+    align-items: right;
     color: rgb(201, 64, 64);
+    margin-right: 530px;
 }
 
 header {
@@ -49,12 +66,7 @@ header {
 
 }
 
-ul {
-    display: inline-flex;
-    margin-left: 500px;
-}
-
-ul a {
+header a {
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -67,6 +79,13 @@ ul a {
     height: 30px;
     display: inline-flex;
     justify-content: center;
+}
+
+header ul {
+    display: inline-flex;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
 }
 
 ul a:hover {
@@ -141,10 +160,11 @@ button:hover {
     color: white;
 }
 
-#headerfortshirt {
+#h1fortshirt {
     text-align: center;
     align-items: center;
     margin-top: 300px;
+    margin-bottom: 80px;
 }
 
 #tshirt {
@@ -194,10 +214,11 @@ button:hover {
     justify-content: space-between;
 }
 
-#headerforpants {
+#h1forpants {
     text-align: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #pants {
@@ -263,10 +284,11 @@ button:hover {
     color: red;
 }
 
-#headerforperfume {
+#h1forperfume {
     text-align: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 #perfume {
@@ -317,4 +339,14 @@ button:hover {
     width: 136px;
     height: auto;
     justify-content: space-between;
+}
+
+#h1forcontactus{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#contact {
+    margin-left: 20px;
 }
