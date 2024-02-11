@@ -46,6 +46,8 @@ html {
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    height: 2000px;
+
 }
 
 header h1 {
@@ -63,7 +65,9 @@ header {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 0 1px 20px;
-
+    top: 0;
+    position: sticky;
+    z-index: 2000;
 }
 
 header a {
@@ -71,14 +75,9 @@ header a {
     color: black;
     margin-left: 10px;
     background-color: lightgray;
-    width: 100px;
     border-radius: 20px;
     transition: 0.3s ease;
-    text-align: center;
-    align-items: center;
-    height: 30px;
-    display: inline-flex;
-    justify-content: center;
+    padding: 10px 15px;
 }
 
 header ul {
