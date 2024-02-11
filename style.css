@@ -1,29 +1,32 @@
-body{
+
+body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
 
-header h1{
+header h1 {
     padding-left: 100px;
     display: inline-flex;
     text-align: center;
     align-items: center;
     color: rgb(201, 64, 64);
 }
-header{
+
+header {
     background-color: lightgray;
     margin-top: 0;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 0 1px 20px;
-    
+
 }
 
-ul{
+ul {
     display: inline-flex;
     margin-left: 500px;
 }
-ul a{
+
+ul a {
     text-decoration: none;
     color: black;
     margin-left: 10px;
@@ -38,12 +41,12 @@ ul a{
     justify-content: center;
 }
 
-ul a:hover{
+ul a:hover {
     background-color: maroon;
     color: white;
 }
 
-#home h1{
+#home h1 {
     text-align: center;
     margin-top: 180px;
     font-size: 120px;
@@ -51,18 +54,18 @@ ul a:hover{
     margin-left: 500px;
     -webkit-text-stroke: 3px white;
     font-weight: 4000;
-    
+
 }
 
 
-#home{
+#home {
     border-radius: 20px;
     align-items: center;
     text-align: center;
     border: hidden;
 }
 
-#shop{
+#shop {
     color: black;
     text-decoration: none;
     text-align: center;
@@ -77,7 +80,7 @@ ul a:hover{
 }
 
 
-#home a:hover{
+#home a:hover {
     background-color: maroon;
     color: white;
 }
@@ -88,6 +91,7 @@ body {
     backdrop-filter: blur(4px);
     height: 900px;
 }
+
 button {
     text-align: center;
     font-size: 13px;
@@ -101,52 +105,55 @@ button {
     box-shadow: 0 4px 20px;
     width: 100%;
     margin-top: 0px;
-   
+
 }
 
 button:hover {
-    background-color: blue; 
-    color: white; 
+    background-color: maroon;
+    color: white;
 }
 
-#headerfortshirt{
+#headerfortshirt {
     text-align: center;
     align-items: center;
     margin-top: 300px;
 }
 
-#tshirt{
+#tshirt {
     justify-content: space-around;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
-    
+
 }
 
-#tshirt1 img{
+#tshirt1 img {
     width: 200px;
     height: auto;
 }
 
-#tshirt2 img{
+#tshirt2 img {
     width: 100px;
     height: auto;
 }
 
-#tshirt3 img{
+#tshirt3 img {
     width: 180px;
     height: auto;
 }
 
-#tshirt4 img{
+#tshirt4 img {
     width: 120px;
     height: auto;
 }
 
-#tshirt1, #tshirt2, #tshirt3, #tshirt4{
+#tshirt1,
+#tshirt2,
+#tshirt3,
+#tshirt4 {
     text-align: center;
     width: 320px;
     background: white;
@@ -154,51 +161,56 @@ button:hover {
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 20px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     height: 400px;
     justify-content: space-between;
 }
 
-#headerforpants{
+#headerforpants {
     text-align: center;
     align-items: center;
     margin-top: 40px;
 }
 
-#pants{
+#pants {
     justify-content: space-around;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 
-#pants1 img{
+#pants1 img {
     width: 120px;
     height: auto;
     justify-content: space-between;
 }
 
-#pants2 img{
+#pants2 img {
     width: 95px;
     height: auto;
     justify-content: space-between;
 }
-#pants3 img{
+
+#pants3 img {
     width: 95px;
     height: auto;
     justify-content: space-between;
 }
-#pants4 img{
+
+#pants4 img {
     width: 95px;
     height: auto;
     justify-content: space-between;
 }
 
 
-#pants1, #pants2, #pants3, #pants4 {
+#pants1,
+#pants2,
+#pants3,
+#pants4 {
     text-align: center;
     width: 320px;
     background: white;
@@ -206,39 +218,43 @@ button:hover {
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 20px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     height: 400px;
     justify-content: space-between;
 }
 
-#pants h2{
+#pants h2 {
     color: red;
 }
 
-#tshirt h2{
-    color: red;
-}
-#perfume h2{
+#tshirt h2 {
     color: red;
 }
 
-#headerforperfume{
+#perfume h2 {
+    color: red;
+}
+
+#headerforperfume {
     text-align: center;
     align-items: center;
     margin-top: 40px;
 }
 
-#perfume{
+#perfume {
     justify-content: space-around;
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
 }
 
-#perfume1, #perfume2, #perfume3, #perfumes4 {
+#perfume1,
+#perfume2,
+#perfume3,
+#perfumes4 {
     text-align: center;
     width: 320px;
     background: white;
@@ -246,13 +262,28 @@ button:hover {
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 20px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     height: 400px;
     justify-content: space-between;
 }
 
-#perfume1 img{
-    width: 195px;
+#perfume1 img {
+    width: 186px;
+    height: auto;
+    justify-content: space-between;
+}
+#perfume2 img {
+    width: 186px;
+    height: auto;
+    justify-content: space-between;
+}
+#perfume3 img {
+    width: 186px;
+    height: auto;
+    justify-content: space-between;
+}
+#perfume4 img {
+    width: 186px;
     height: auto;
     justify-content: space-between;
 }
