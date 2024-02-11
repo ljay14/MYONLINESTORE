@@ -8,8 +8,7 @@ header h1{
     display: inline-flex;
     text-align: center;
     align-items: center;
-    color: maroon;
-    
+    color: rgb(201, 64, 64);
 }
 header{
     background-color: lightgray;
@@ -46,10 +45,15 @@ ul a:hover{
 
 #home h1{
     text-align: center;
-    margin-top: 170px;
+    margin-top: 180px;
     font-size: 100px;
-    color: rgb(184, 61, 61);
+    margin-right: 500px;
+    margin-left: 500px;
+    -webkit-text-stroke: 3px white;
+    
 }
+
+
 
 #home{
     border-radius: 20px;
@@ -71,13 +75,6 @@ ul a:hover{
     justify-content: center;
 }
 
-#sz{
-
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
 
 #home a:hover{
     background-color: maroon;
@@ -87,10 +84,123 @@ ul a:hover{
 body {
     background: url(image/a.jpg) center/cover no-repeat;
     background-size: cover;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
     height: 900px;
+}
+button {
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: 900;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 20px;
+    width: 100%;
+    margin-top: 0px;
+   
+}
+
+button:hover {
+    background-color: blue; 
+    color: white; 
+}
+
+#headerfortshirt{
+    text-align: center;
+    align-items: center;
+    margin-top: 300px;
 }
 
 #tshirt{
-    margin-top: 290px;
+    justify-content: space-around;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px;
+    
+}
+
+#tshirt1 img{
+    width: 200px;
+    height: auto;
+}
+
+#tshirt2 img{
+    width: 100px;
+    height: auto;
+}
+
+#tshirt3 img{
+    width: 180px;
+    height: auto;
+}
+
+#tshirt4 img{
+    width: 120px;
+    height: auto;
+}
+
+#tshirt1, #tshirt2, #tshirt3, #tshirt4{
+    text-align: center;
+    width: 320px;
+    background: white;
+    box-shadow: 0 10px 20px black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    height: 350px;
+    justify-content: space-between;
+}
+
+#headerforpants{
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#pants{
+    justify-content: space-around;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px;
+}
+
+#pants1 img{
+    width: 120px;
+    height: auto;
+    justify-content: space-between;
+}
+
+#pants2 img{
+    width: 95px;
+    height: auto;
+    justify-content: space-between;
+}
+#pants3 img{
+    width: 95px;
+    height: auto;
+    justify-content: space-between;
+}
+
+
+#pants1, #pants2, #pants3 {
+    text-align: center;
+    width: 320px;
+    background: white;
+    box-shadow: 0 10px 20px black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    height: 350px;
+    justify-content: space-between;
 }
