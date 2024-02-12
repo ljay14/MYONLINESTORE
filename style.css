@@ -148,7 +148,7 @@ body {
     border: none;
     border-radius: 20px;
     transition: 0.3s ease;
-    box-shadow: 0 4px 20px;
+    box-shadow: 0 1px 20px;
     margin-top: 0px;
 }
 
@@ -402,16 +402,15 @@ body {
 }
 
 #right-side button {
-    text-align: center;
-    font-size: 13px;
     color: white;
     font-weight: 900;
     padding: 10px 18px;
     border: 1px solid;
-    border-radius: 20px;
     transition: 0.3s ease;
-    box-shadow: 0 4px 20px;
-    margin-top: 0px;
+    background-color: maroon;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 250px;
 }
 
 #right-side button:hover {
@@ -434,7 +433,9 @@ body {
 }
 
 #right-side h1{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 40px;
 }
 
 #right-side input {
@@ -456,15 +457,6 @@ body {
     color: white;
 }
 
-#right-side button {
-    background-color: maroon;
-    border: 1px solid white;
-    color: white;
-    border-radius: 20px;
-    margin: 10px;
-    margin-left: 250px;
-}
-
 #right-side textarea::placeholder{
     margin-left: 20px;
     margin-top: 5px;
@@ -477,3 +469,4 @@ body {
         color: white;
 
 }
+
