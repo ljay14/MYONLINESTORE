@@ -74,7 +74,6 @@ header {
 header a {
     text-decoration: none;
     color: black;
-    margin-left: 10px;
     background-color: lightgray;
     border-radius: 20px;
     transition: 0.3s ease;
@@ -169,7 +168,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; 
     align-items: center;
     padding: 20px;
 
@@ -467,3 +466,4 @@ body {
 #right-side input:hover::placeholder, #right-side textarea:hover::placeholder  {
     font-size: 0.8em;
 }
+
