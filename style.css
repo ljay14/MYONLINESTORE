@@ -9,8 +9,8 @@
         justify-content: center;
         width: 100%;
         height: auto;
+        background-size: cover;
     }
-
 
     header h1{
         text-align: center;
@@ -33,11 +33,35 @@
         justify-self: center;
         margin-left: 0;
     }
-
-    #contact, #contact img, #contact input{
-        width: 50%;
+    
+    #contact{
+        width: 80%;
         height: auto;
+        text-align: start;
+        display: block;
+        margin-left: 0;
     }
+
+    #left-side h1{
+       font-size: 20px;
+    }
+
+    #left-side a {
+        width: 1px;
+        font-size: 1px;
+    }
+
+    #contact #right-side input,
+    #contact #right-side textarea {
+        width: 200px; 
+    }
+    #contact #right-side h1{
+        margin-bottom: 2px;
+    }
+    #contact #right-side button{
+        margin-left: 130px;
+    }
+
 }
 
 html {
@@ -382,13 +406,18 @@ body {
 }
 
 #contact img{
-    margin-left: 170px;
+    
     width: 250px;
     height: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+#contactlogo {
+    display: block; 
+    margin: 0 auto; 
 }
 
 #right-side button {
