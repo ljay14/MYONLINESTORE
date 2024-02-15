@@ -33,6 +33,11 @@
         justify-self: center;
         margin-left: 0;
     }
+
+    #contact, #contact img, #contact input{
+        width: 50%;
+        height: auto;
+    }
 }
 
 html {
