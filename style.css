@@ -1,94 +1,43 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+
+    article,
     body {
-      height: auto;
+        float: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
     }
-  
-    header h1 {
-      padding-left: 20px;
-      margin-right: 20px;
+
+
+    body #home {
+        display: grid;
     }
-  
-    header nav {
-      display: block;
-      text-align: center;
+
+    header h1{
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
-  
-    header a {
-      display: block;
-      margin: 5px;
+   
+    header ul a{
+        display: inline-flex;
+        margin-left: 0;
     }
-  
-    #home h1 {
-      margin-top: 80px;
-      font-size: 60px;
+
+    header a{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        justify-self: center;
+        margin-left: 0;
     }
-  
-    #home #shop {
-      width: 80px;
-      height: 40px;
-    }
-  
-    #list-cloth button {
-      padding: 8px 14px;
-      font-size: 10px;
-    }
-  
-    #h1fortshirt,
-    #h1forpants,
-    #h1forperfume,
-    #h1forcontactus {
-      margin-top: 40px;
-      margin-bottom: 40px;
-      font-size: 24px;
-    }
-  
-    #tshirt1 img,
-    #tshirt2 img,
-    #tshirt3 img,
-    #tshirt4 img,
-    #pants1 img,
-    #pants2 img,
-    #pants3 img,
-    #pants4 img,
-    #perfume1 img,
-    #perfume2 img,
-    #perfume3 img,
-    #perfume4 img {
-      width: 100%;
-      height: auto;
-    }
-  
-    #tshirt1,
-    #tshirt2,
-    #tshirt3,
-    #tshirt4,
-    #pants1,
-    #pants2,
-    #pants3,
-    #pants4,
-    #perfume1,
-    #perfume2,
-    #perfume3,
-    #perfume4 {
-      width: 100%;
-      margin-bottom: 20px;
-      height: auto;
-    }
-  
-    #right-side button {
-      margin-left: 20px;
-    }
-  
-    #right-side input,
-    #right-side textarea {
-      width: 80%;
-    }
-  
-    #contact img {
-      margin-left: 20%;
-      width: 60%;
-    }
-  }
+}
 
 html {
     scroll-behavior: smooth;
