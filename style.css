@@ -2,7 +2,7 @@
 
 
     article,
-    body {
+    body{
         float: none;
         text-align: center;
         align-items: center;
@@ -12,22 +12,18 @@
     }
 
 
-    body #home {
-        display: grid;
-    }
-
     header h1{
         text-align: center;
-        display: grid;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
    
-    header ul a{
-        display: inline-flex;
+    header nav{
         margin-left: 0;
     }
-
+    
+    
     header a{
         display: grid;
         align-items: center;
